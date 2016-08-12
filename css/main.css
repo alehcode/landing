@@ -1,0 +1,90 @@
+
+*{
+	
+	font-family: "Open Sans"
+}
+
+header{
+	padding-top: 2.5%;
+	padding-bottom: 1%;
+}
+.logito{
+	width: 30%;
+	margin-left: 10%;
+}
+nav a{
+	text-decoration: none;
+	color: #848484;
+	margin-right: 15%;
+
+}
+nav{
+	float: right;
+	margin-right: 35%;
+}
+nav a:hover{
+	color: #3EB0F7;
+}
+
+.superior{
+	background-color: #808080;
+	padding: 2% 5%;
+}
+.texto{
+	width: 90%;
+	color: #FFFFFF;
+ padding-bottom: 6.5%;
+}
+.texto h1{
+	font-size: 3em;
+	padding-bottom: 5.5%;
+	padding-top: 6.5%;
+}
+
+.texto p{
+	font-size: 1em;
+}
+h2{
+	color:white;
+}
+.formu{
+	border-radius: 3%;
+	background-color: #9A9A9A;
+	width: 34%;
+	padding: 5%;
+	text-align: center;
+	margin-top: 10%;
+}
+.boton{
+	background-color: #3EB0F7;
+	color: white;
+	width: 92%;
+}
+
+footer{
+padding-left: 5%;
+padding-top: 2%;
+}
+
+@media screen and (max-width : 824px) {
+	.superior col-5{
+		width: 100%;
+	}
+	.formu{
+	border-radius: 3%;
+	background-color: #9A9A9A;
+	width: 100%;
+	padding: 5%;
+	text-align: center;
+	margin-top: 10%;
+  }
+  input{
+  	width: 100%;
+  }
+  .boton{
+  	width: 100%;
+  }
+  .superior{
+  	padding-right: 12%;
+  }
+}
